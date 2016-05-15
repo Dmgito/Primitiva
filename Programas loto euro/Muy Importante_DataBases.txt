@@ -1,0 +1,51 @@
+NOTA MUY IMPORTANTE para Usuarios de cualquier versión de Lotux Pro-SP que tengan instalado algún módulo DataBase Actualizado (de cualquier año):
+
+Si va a proceder a instalar una versión más reciente del programa:
+
+
+
+CASO 1: EL USUARIO DISPONE DEL PROGRAMA DE INSTALACIÓN DEL MÓDULO DATABASE ACTUALIZADO
+
+Desinstale su antigua versión y acto seguido proceda con Instalación de la nueva versión. 
+ejecute ahora el programa de instalación de su módulo LotoBase actualizado.
+
+
+
+CASO 2: EL USUARIO NO DISPONE DEL PROGRAMA DE INSTALACIÓN DEL MÓDULO DATABASE ACTUALIZADO
+
+Antes de desinstalar su versión antigua, es necesario que realice previamente una copia de seguridad de los siguientes archivos y carpetas:
+
+- Archivos DataBase Actualizados con extensión ".DLJ" (ABX739, ABXCB, ABXEU, ABXGP y/o ABXLP).
+
+Estos Archivos/Carpetas se encuentran ubicados en directorio de Trabajo de Lotux Pro-SP.
+
+A continuación, desinstale su antigua versión y acto seguido proceda con Instalación de la nueva versión. Hecho esto, deberá reubicar sus copias de seguridad en la carpeta de Trabajo del programa. 
+
+SI NO SIGUE ESTOS PASOS, perderá sus módulos DataBase actualizados.
+
+------------------------------------------------------------------------------
+
+
+NOTAS SOBRE VERSIONES
+
+A partir de la versión v.1.3.0:
+
+Carpeta de Instalación por defecto:
+   C:\Archivos de programa\Lotux Pro-SP
+
+Carpeta de Trabajo por defecto:
+   C:\Documents and Settings\[USUARIO]\Datos de programa\MASP Software\Lotux Pro-SP  (Windows XP).
+   C:\Users\[USUARIO]\AppData\Roaming\MASP Software\Lotux Pro-SP  (Windows 7 / Vista).
+
+
+Para las versiones anteriores a la v.1.3.0:
+
+Carpeta de Instalación y Trabajo por defecto:
+   C:\Archivos de programa\Lotux Pro-SP
+
+
+------------------------------------------------------------------------------
+
+MASP
+
+turbocalc@hotmail.com

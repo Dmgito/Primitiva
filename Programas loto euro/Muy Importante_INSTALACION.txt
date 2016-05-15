@@ -1,0 +1,44 @@
+NOTAS MUY IMPORTANTES acerca del Programa: 
+
+1) Tras la instalación, REINICIE el Sistema para Garantizar una correcta ejecución del Programa. Si omite este paso, es posible que se produzcan deficiencias en la visualización de algunos botones del programa. Una vez reiniciado el Sistema, no se volverá a presentar este problema.
+
+2) Windows XP / Vista / 7: Lo normal es que el programa se instale sin ningún tipo de Problemas bajo los sistemas operativos testados (Windows XP / VISTA / 7). No obstante, durante el proceso de instalación es posible que aparezca una o varias veces el siguiente mensaje:
+
+"Se va a copiar un archivo que no es más reciente que el que hay actualmente en el sistema. Se recomienda que conserve el archivo existente.
+¿ Desea conservar este archivo ?"
+
+Como norma general, conteste " SI " 
+
+3) Windows Vista / 7: En caso de presentarse algún problema que impida la instalación de este producto, ejecute el programa de instalación como administrador: click derecho sobre el icono y seleccionar 'Ejecutar como Administrador' en la lista emergente. 
+
+
+4) Windows Vista / 7: El programa se ha diseñado para cumplir con las exigencias requeridas por Windows Vista / 7, de modo que no sea necesario ser ejecutado "como Administrador". En caso de presentarse algún problema de funcionamiento, comunique la anomalía observada al Autor (puede hacerlo a través de la sección Acerca de..., o accediendo a la web del programa). Si el problema persiste, ejecute el programa como administrador: Click derecho sobre el icono/acceso directo. Click Izquierdo sobre [Propiedades] de la lista emergente. Seleccione la pestaña [Compatibilidad] y una vez dentro de ella, marque la opción [Ejecutar este programa como administrador].
+
+------------------------------------------------------------------------------
+
+
+NOTAS SOBRE VERSIONES
+
+A partir de la versión v.1.3.0:
+
+Carpeta de Instalación por defecto:
+   C:\Archivos de programa\Lotux Pro-SP
+
+Carpeta de Trabajo por defecto:
+   C:\Documents and Settings\[USUARIO]\Datos de programa\MASP Software\Lotux Pro-SP  (Windows XP).
+   C:\Users\[USUARIO]\AppData\Roaming\MASP Software\Lotux Pro-SP  (Windows 7 / Vista).
+
+
+Para las versiones anteriores a la v.1.3.0:
+
+Carpeta de Instalación y Trabajo por defecto:
+   C:\Archivos de programa\Lotux Pro-SP
+
+
+------------------------------------------------------------------------------
+
+
+MASP
+
+turbocalc@hotmail.com
+ 
