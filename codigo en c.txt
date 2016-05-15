@@ -1,0 +1,142 @@
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+/**
+*************************************************************
+* @file loteria.c
+* @brief Saca números aleatorios para la lotería
+* Basado en el sorteo de la primitiva, hay que sacar 7 números
+* del 1 al 49, sin repetir
+*
+* @author Gaspar Fernández <blakeyed@totaki.com>
+* http://totaki.com/poesiabinaria/algoritmos/
+*************************************************************/
+
+#include <stdlib.h>
+#include <stdio.h>
+#include <time.h>       /* para time() */
+
+
+int numero_aleatorio(int desde, int hasta)
+{
+  return desde+rand()%(hasta-desde+1);
+}
+
+short numero_repetido(int numeros[7], int n)
+{
+  int i=0;
+
+  while (i<n)
+    {
+      /* Si un número sacado anteriormente es igual al número
+         en la posición n, decidido, está repetido. */
+      if (numeros[i]==numeros[n])
+    return 1;
+      i++;
+    }
+
+  /* Si llegamos hasta aquí, el número no se ha repetido */
+  return 0;
+}
+
+void numeros_loteria(int numeros[7])
+{
+  int i;
+
+  /* El primer número lo generamos, este no se repetirá con nadie 
+     anterior */
+  numeros[0]=numero_aleatorio(1, 49); 
+
+  /* A partir del segundo número tenemos que verificar que no se
+     repite. */
+  for (i=1; i<7; i++)
+    {
+      do
+    {
+      /* Generamos un número */
+      numeros[i]=numero_aleatorio(1,49);
+      /* Si el número está repetido, volvemos a generar */
+    } while (numero_repetido(numeros, i));
+    }
+}
+
+int main(int argc, char *argv[])
+{
+  int numeros_premiados[7];
+  int i;
+  srand(time(NULL));        /* Una nueva semilla de números aleatorios */
+
+  numeros_loteria(numeros_premiados);
+  for (i=0; i<7; i++)
+    printf ("Numero %d -> %d\n", i+1, numeros_premiados[i]);
+  
+  return EXIT_SUCCESS;
+}
